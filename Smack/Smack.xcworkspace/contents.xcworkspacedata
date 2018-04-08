@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Workspace
    version = "1.0">
+   <Group
+      location = "group:Supporting File"
+      name = "Supporting Files">
+      <FileRef
+         location = "group:Supporting File/SWRevealViewController.h">
+      </FileRef>
+      <FileRef
+         location = "group:Supporting File/SWRevealViewController.m">
+      </FileRef>
+      <FileRef
+         location = "group:Supporting File/Smack-Bridging-Header.h">
+      </FileRef>
+   </Group>
    <FileRef
       location = "group:Smack.xcodeproj">
    </FileRef>

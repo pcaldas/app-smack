@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2D88EF89207A9CBD00BC016E /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D88EF87207A9CBD00BC016E /* SWRevealViewController.m */; };
+		2D88EF8E207AAB8600BC016E /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D88EF8D207AAB8600BC016E /* ChatVC.swift */; };
+		2D88EF90207AAB9E00BC016E /* ChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D88EF8F207AAB9E00BC016E /* ChannelVC.swift */; };
+		2D88EFA2207AB72100BC016E /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D88EFA0207AB72000BC016E /* SWRevealViewController.m */; };
 		2DFF0AFF2079952E006C8000 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFF0AFE2079952E006C8000 /* AppDelegate.swift */; };
-		2DFF0B012079952E006C8000 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFF0B002079952E006C8000 /* ViewController.swift */; };
 		2DFF0B042079952F006C8000 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DFF0B022079952F006C8000 /* Main.storyboard */; };
 		2DFF0B062079953D006C8000 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DFF0B052079953D006C8000 /* Assets.xcassets */; };
 		2DFF0B092079953E006C8000 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DFF0B072079953E006C8000 /* LaunchScreen.storyboard */; };
@@ -17,12 +18,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2D88EF86207A9CBB00BC016E /* Smack-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Smack-Bridging-Header.h"; sourceTree = "<group>"; };
-		2D88EF87207A9CBD00BC016E /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
-		2D88EF88207A9CBD00BC016E /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		2D88EF8D207AAB8600BC016E /* ChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
+		2D88EF8F207AAB9E00BC016E /* ChannelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelVC.swift; sourceTree = "<group>"; };
+		2D88EFA0207AB72000BC016E /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		2D88EFA1207AB72100BC016E /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		2D88EFA3207AB74700BC016E /* Smack-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Smack-Bridging-Header.h"; sourceTree = "<group>"; };
 		2DFF0AFB2079952E006C8000 /* Smack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Smack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DFF0AFE2079952E006C8000 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2DFF0B002079952E006C8000 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2DFF0B032079952F006C8000 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2DFF0B052079953D006C8000 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2DFF0B082079953E006C8000 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -44,12 +46,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2D88EF85207A9C8300BC016E /* Supporting Files */ = {
+		2D88EF8A207AAB4400BC016E /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				2D88EF88207A9CBD00BC016E /* SWRevealViewController.h */,
-				2D88EF87207A9CBD00BC016E /* SWRevealViewController.m */,
-				2D88EF86207A9CBB00BC016E /* Smack-Bridging-Header.h */,
+				2D88EF8D207AAB8600BC016E /* ChatVC.swift */,
+				2D88EF8F207AAB9E00BC016E /* ChannelVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2D88EF8B207AAB4C00BC016E /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2D88EF8C207AAB5C00BC016E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2D88EF9F207AB70A00BC016E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2D88EFA1207AB72100BC016E /* SWRevealViewController.h */,
+				2D88EFA0207AB72000BC016E /* SWRevealViewController.m */,
+				2D88EFA3207AB74700BC016E /* Smack-Bridging-Header.h */,
 			);
 			path = "Supporting Files";
 			sourceTree = "<group>";
@@ -57,7 +82,7 @@
 		2DFF0AF22079952E006C8000 = {
 			isa = PBXGroup;
 			children = (
-				2D88EF85207A9C8300BC016E /* Supporting Files */,
+				2D88EF9F207AB70A00BC016E /* Supporting Files */,
 				2DFF0AFD2079952E006C8000 /* Smack */,
 				2DFF0AFC2079952E006C8000 /* Products */,
 				DCD047CE124B88DD14D7C3D8 /* Pods */,
@@ -76,8 +101,10 @@
 		2DFF0AFD2079952E006C8000 /* Smack */ = {
 			isa = PBXGroup;
 			children = (
+				2D88EF8C207AAB5C00BC016E /* Model */,
+				2D88EF8B207AAB4C00BC016E /* View */,
+				2D88EF8A207AAB4400BC016E /* Controller */,
 				2DFF0AFE2079952E006C8000 /* AppDelegate.swift */,
-				2DFF0B002079952E006C8000 /* ViewController.swift */,
 				2DFF0B022079952F006C8000 /* Main.storyboard */,
 				2DFF0B052079953D006C8000 /* Assets.xcassets */,
 				2DFF0B072079953E006C8000 /* LaunchScreen.storyboard */,
@@ -222,9 +249,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DFF0B012079952E006C8000 /* ViewController.swift in Sources */,
+				2D88EF90207AAB9E00BC016E /* ChannelVC.swift in Sources */,
+				2D88EF8E207AAB8600BC016E /* ChatVC.swift in Sources */,
 				2DFF0AFF2079952E006C8000 /* AppDelegate.swift in Sources */,
-				2D88EF89207A9CBD00BC016E /* SWRevealViewController.m in Sources */,
+				2D88EFA2207AB72100BC016E /* SWRevealViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
