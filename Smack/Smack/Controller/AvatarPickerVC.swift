@@ -66,14 +66,14 @@ class AvatarPickerVC: UIViewController, UICollectionViewDelegate, UICollectionVi
         
         let spaceBetweenCells: CGFloat = 10
         let padding: CGFloat = 40
-        let cellDimension = ((collectionView.bounds.width - padding) - (numOfColumns - 1) * spaceBetween) / numOfColumns
+        let cellDimension = ((collectionView.bounds.width - padding) - (numOfColumns - 1) * spaceBetweenCells) / numOfColumns
         
         return CGSize(width: cellDimension, height: cellDimension)
     }
     
-    func collectionView(_ collectionView: UICollectionView, willDisplay cell: UICollectionViewCell, forItemAt indexPath: IndexPath) {
-        
-        if avatarType = .dark {
+    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        if avatarType == .dark {
             UserDataService.instance.setAvatarName(avatarName: "dark\(indexPath.item)")
         } else {
             UserDataService.instance.setAvatarName(avatarName: "light\(indexPath.item)")
@@ -81,6 +81,5 @@ class AvatarPickerVC: UIViewController, UICollectionViewDelegate, UICollectionVi
         
         self.dismiss(animated: true, completion: nil)
     }
-    
 
 }
