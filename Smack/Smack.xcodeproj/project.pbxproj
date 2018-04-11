@@ -17,6 +17,8 @@
 		2DC56853207C147B00FB88B3 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC56852207C147B00FB88B3 /* AuthService.swift */; };
 		2DC56855207C486800FB88B3 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC56854207C486700FB88B3 /* RoundedButton.swift */; };
 		2DF5253F207D33D0007776A8 /* UserDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF5253E207D33CF007776A8 /* UserDataService.swift */; };
+		2DF52541207D7CF5007776A8 /* AvatarPickerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF52540207D7CF4007776A8 /* AvatarPickerVC.swift */; };
+		2DF52543207D9052007776A8 /* AvatarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF52542207D9051007776A8 /* AvatarCell.swift */; };
 		2DFF0AFF2079952E006C8000 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFF0AFE2079952E006C8000 /* AppDelegate.swift */; };
 		2DFF0B042079952F006C8000 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DFF0B022079952F006C8000 /* Main.storyboard */; };
 		2DFF0B062079953D006C8000 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DFF0B052079953D006C8000 /* Assets.xcassets */; };
@@ -37,6 +39,8 @@
 		2DC56852207C147B00FB88B3 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		2DC56854207C486700FB88B3 /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
 		2DF5253E207D33CF007776A8 /* UserDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataService.swift; sourceTree = "<group>"; };
+		2DF52540207D7CF4007776A8 /* AvatarPickerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarPickerVC.swift; sourceTree = "<group>"; };
+		2DF52542207D9051007776A8 /* AvatarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarCell.swift; sourceTree = "<group>"; };
 		2DFF0AFB2079952E006C8000 /* Smack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Smack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DFF0AFE2079952E006C8000 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2DFF0B032079952F006C8000 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -67,6 +71,7 @@
 				2D88EF8F207AAB9E00BC016E /* ChannelVC.swift */,
 				2D88EFA9207AD85700BC016E /* LoginVC.swift */,
 				2D88EFAB207ADF9600BC016E /* CreateAccountVC.swift */,
+				2DF52540207D7CF4007776A8 /* AvatarPickerVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -76,6 +81,7 @@
 			children = (
 				2D88EFA4207ABAF500BC016E /* GradientView.swift */,
 				2DC56854207C486700FB88B3 /* RoundedButton.swift */,
+				2DF52542207D9051007776A8 /* AvatarCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -287,6 +293,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2D88EF90207AAB9E00BC016E /* ChannelVC.swift in Sources */,
+				2DF52541207D7CF5007776A8 /* AvatarPickerVC.swift in Sources */,
 				2DC56855207C486800FB88B3 /* RoundedButton.swift in Sources */,
 				2D88EF8E207AAB8600BC016E /* ChatVC.swift in Sources */,
 				2DF5253F207D33D0007776A8 /* UserDataService.swift in Sources */,
@@ -294,6 +301,7 @@
 				2DC56853207C147B00FB88B3 /* AuthService.swift in Sources */,
 				2D88EFAA207AD85700BC016E /* LoginVC.swift in Sources */,
 				2D88EFA5207ABAF500BC016E /* GradientView.swift in Sources */,
+				2DF52543207D9052007776A8 /* AvatarCell.swift in Sources */,
 				2DFF0AFF2079952E006C8000 /* AppDelegate.swift in Sources */,
 				2D88EFA2207AB72100BC016E /* SWRevealViewController.m in Sources */,
 				2D88EFA8207AD0CD00BC016E /* Constants.swift in Sources */,
