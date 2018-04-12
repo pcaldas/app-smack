@@ -11,6 +11,7 @@
 		2D257D2E207EC47F001FC0D8 /* ProfileVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D257D2C207EC47F001FC0D8 /* ProfileVC.xib */; };
 		2D257D31207EFF30001FC0D8 /* MessageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D257D30207EFF2F001FC0D8 /* MessageService.swift */; };
 		2D257D33207EFFB9001FC0D8 /* Channel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D257D32207EFFB9001FC0D8 /* Channel.swift */; };
+		2D257D35207F0CDC001FC0D8 /* ChannelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D257D34207F0CDC001FC0D8 /* ChannelCell.swift */; };
 		2D88EF8E207AAB8600BC016E /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D88EF8D207AAB8600BC016E /* ChatVC.swift */; };
 		2D88EF90207AAB9E00BC016E /* ChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D88EF8F207AAB9E00BC016E /* ChannelVC.swift */; };
 		2D88EFA2207AB72100BC016E /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D88EFA0207AB72000BC016E /* SWRevealViewController.m */; };
@@ -36,6 +37,7 @@
 		2D257D2C207EC47F001FC0D8 /* ProfileVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileVC.xib; sourceTree = "<group>"; };
 		2D257D30207EFF2F001FC0D8 /* MessageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageService.swift; sourceTree = "<group>"; };
 		2D257D32207EFFB9001FC0D8 /* Channel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Channel.swift; sourceTree = "<group>"; };
+		2D257D34207F0CDC001FC0D8 /* ChannelCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelCell.swift; sourceTree = "<group>"; };
 		2D88EF8D207AAB8600BC016E /* ChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
 		2D88EF8F207AAB9E00BC016E /* ChannelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelVC.swift; sourceTree = "<group>"; };
 		2D88EFA0207AB72000BC016E /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 				2DC56854207C486700FB88B3 /* RoundedButton.swift */,
 				2DF52542207D9051007776A8 /* AvatarCell.swift */,
 				2DF52544207D9DDE007776A8 /* CircleImage.swift */,
+				2D257D34207F0CDC001FC0D8 /* ChannelCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -317,6 +320,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2D257D2D207EC47F001FC0D8 /* ProfileVC.swift in Sources */,
+				2D257D35207F0CDC001FC0D8 /* ChannelCell.swift in Sources */,
 				2D88EF90207AAB9E00BC016E /* ChannelVC.swift in Sources */,
 				2DF52541207D7CF5007776A8 /* AvatarPickerVC.swift in Sources */,
 				2DC56855207C486800FB88B3 /* RoundedButton.swift in Sources */,
