@@ -16,29 +16,29 @@ class AddChannelVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        setUpView()
+        setupView()
     }
-
+    
+    @IBAction func createChannelPressed(_ sender: Any) {
+        guard let channelName = nameTxt.text , nameTxt.text != "" else { return }
+        guard let channelDesc = chanDesc.text else { return }
+        SocketService.instance.addChannel(channelName: channelName, channelDescription: channelDesc) { (success) in
+            if success {
+                self.dismiss(animated: true, completion: nil)
+            }
+        }
+    }
+    
     @IBAction func closeModalPressed(_ sender: Any) {
         dismiss(animated: true, completion: nil)
     }
     
-    @IBAction func createChannelPressed(_ sender: Any) {
-        
-        //guard let name = nameTxt.text, nameTxt.text != "" else { return }
-        //guard let chanDes = chanDesc.text , chanDesc.text != "" else { return }
-        
-        
-        
-    }
-    
-    func setUpView() {
-        nameTxt.attributedPlaceholder = NSAttributedString(string: "name", attributes: [NSAttributedStringKey.foregroundColor: smackPurplePlaceholder])
-        chanDesc.attributedPlaceholder = NSAttributedString(string: "description", attributes: [NSAttributedStringKey.foregroundColor: smackPurplePlaceholder])
-        
-        let closeTouch = UITapGestureRecognizer(target: self, action: #selector(ProfileVC.closeTap(_:)))
+    func setupView() {
+        let closeTouch = UITapGestureRecognizer(target: self, action: #selector(AddChannelVC.closeTap(_:)))
         bgView.addGestureRecognizer(closeTouch)
+        
+        nameTxt.attributedPlaceholder = NSAttributedString(string: "name", attributes: [NSAttributedStringKey.foregroundColor : smackPurplePlaceholder])
+        chanDesc.attributedPlaceholder = NSAttributedString(string: "description", attributes: [NSAttributedStringKey.foregroundColor : smackPurplePlaceholder])
     }
     
     @objc func closeTap(_ recognizer: UITapGestureRecognizer) {
