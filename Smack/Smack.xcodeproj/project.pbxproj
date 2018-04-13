@@ -15,6 +15,7 @@
 		2D2DF52C207FA4C6003DBD6F /* AddChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2DF52A207FA4C6003DBD6F /* AddChannelVC.swift */; };
 		2D2DF52D207FA4C6003DBD6F /* AddChannelVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D2DF52B207FA4C6003DBD6F /* AddChannelVC.xib */; };
 		2D2DF52F207FE3E9003DBD6F /* SocketService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2DF52E207FE3E8003DBD6F /* SocketService.swift */; };
+		2D6D5DF72081561E002A1AC7 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D6D5DF62081561D002A1AC7 /* Message.swift */; };
 		2D88EF8E207AAB8600BC016E /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D88EF8D207AAB8600BC016E /* ChatVC.swift */; };
 		2D88EF90207AAB9E00BC016E /* ChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D88EF8F207AAB9E00BC016E /* ChannelVC.swift */; };
 		2D88EFA2207AB72100BC016E /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D88EFA0207AB72000BC016E /* SWRevealViewController.m */; };
@@ -44,6 +45,7 @@
 		2D2DF52A207FA4C6003DBD6F /* AddChannelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddChannelVC.swift; sourceTree = "<group>"; };
 		2D2DF52B207FA4C6003DBD6F /* AddChannelVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddChannelVC.xib; sourceTree = "<group>"; };
 		2D2DF52E207FE3E8003DBD6F /* SocketService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketService.swift; sourceTree = "<group>"; };
+		2D6D5DF62081561D002A1AC7 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		2D88EF8D207AAB8600BC016E /* ChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
 		2D88EF8F207AAB9E00BC016E /* ChannelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelVC.swift; sourceTree = "<group>"; };
 		2D88EFA0207AB72000BC016E /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
@@ -121,6 +123,7 @@
 			isa = PBXGroup;
 			children = (
 				2D257D32207EFFB9001FC0D8 /* Channel.swift */,
+				2D6D5DF62081561D002A1AC7 /* Message.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -335,6 +338,7 @@
 				2D88EF90207AAB9E00BC016E /* ChannelVC.swift in Sources */,
 				2DF52541207D7CF5007776A8 /* AvatarPickerVC.swift in Sources */,
 				2DC56855207C486800FB88B3 /* RoundedButton.swift in Sources */,
+				2D6D5DF72081561E002A1AC7 /* Message.swift in Sources */,
 				2D257D33207EFFB9001FC0D8 /* Channel.swift in Sources */,
 				2DF52545207D9DDE007776A8 /* CircleImage.swift in Sources */,
 				2D257D31207EFF30001FC0D8 /* MessageService.swift in Sources */,
