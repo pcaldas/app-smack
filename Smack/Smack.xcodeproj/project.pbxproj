@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D0413FA208242C100A11936 /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D0413F9208242C100A11936 /* MessageCell.swift */; };
 		2D257D2D207EC47F001FC0D8 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D257D2B207EC47F001FC0D8 /* ProfileVC.swift */; };
 		2D257D2E207EC47F001FC0D8 /* ProfileVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D257D2C207EC47F001FC0D8 /* ProfileVC.xib */; };
 		2D257D31207EFF30001FC0D8 /* MessageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D257D30207EFF2F001FC0D8 /* MessageService.swift */; };
@@ -38,6 +39,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2D0413F9208242C100A11936 /* MessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
 		2D257D2B207EC47F001FC0D8 /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
 		2D257D2C207EC47F001FC0D8 /* ProfileVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileVC.xib; sourceTree = "<group>"; };
 		2D257D30207EFF2F001FC0D8 /* MessageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageService.swift; sourceTree = "<group>"; };
@@ -118,6 +120,7 @@
 				2DF52544207D9DDE007776A8 /* CircleImage.swift */,
 				2D257D34207F0CDC001FC0D8 /* ChannelCell.swift */,
 				2D6D5DF8208180F2002A1AC7 /* KeyboardBoundView.swift */,
+				2D0413F9208242C100A11936 /* MessageCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -341,6 +344,7 @@
 				2D257D35207F0CDC001FC0D8 /* ChannelCell.swift in Sources */,
 				2D88EF90207AAB9E00BC016E /* ChannelVC.swift in Sources */,
 				2DF52541207D7CF5007776A8 /* AvatarPickerVC.swift in Sources */,
+				2D0413FA208242C100A11936 /* MessageCell.swift in Sources */,
 				2DC56855207C486800FB88B3 /* RoundedButton.swift in Sources */,
 				2D6D5DF72081561E002A1AC7 /* Message.swift in Sources */,
 				2D257D33207EFFB9001FC0D8 /* Channel.swift in Sources */,
