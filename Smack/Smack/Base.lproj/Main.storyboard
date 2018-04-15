@@ -143,12 +143,20 @@
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1xk-Ms-im4">
+                                <rect key="frame" x="8" y="621" width="0.0" height="0.0"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="PGR-0L-Emx" firstAttribute="top" secondItem="1xk-Ms-im4" secondAttribute="bottom" constant="6" id="815-He-cd0"/>
                             <constraint firstItem="PGR-0L-Emx" firstAttribute="top" secondItem="Dxe-Ye-WNQ" secondAttribute="bottom" constant="30" id="8Ke-cE-cw2"/>
                             <constraint firstItem="gxF-YI-dYE" firstAttribute="leading" secondItem="GoI-sN-fLd" secondAttribute="leading" id="8fC-rF-AHL"/>
                             <constraint firstItem="GoI-sN-fLd" firstAttribute="trailing" secondItem="SBD-OR-AuK" secondAttribute="trailing" constant="8" id="8wM-nT-CT2"/>
+                            <constraint firstItem="1xk-Ms-im4" firstAttribute="leading" secondItem="GoI-sN-fLd" secondAttribute="leading" constant="8" id="JAT-Wk-OLK"/>
                             <constraint firstItem="Dxe-Ye-WNQ" firstAttribute="leading" secondItem="GoI-sN-fLd" secondAttribute="leading" id="K03-PS-QCd"/>
                             <constraint firstItem="PGR-0L-Emx" firstAttribute="leading" secondItem="GoI-sN-fLd" secondAttribute="leading" id="Ppg-sY-z8r"/>
                             <constraint firstItem="SBD-OR-AuK" firstAttribute="centerY" secondItem="PGR-0L-Emx" secondAttribute="centerY" id="Pv5-XI-b3p"/>
@@ -167,6 +175,7 @@
                         <outlet property="messageTxtBox" destination="PGR-0L-Emx" id="Trw-tR-4mN"/>
                         <outlet property="sendBtn" destination="SBD-OR-AuK" id="jkF-0d-kDB"/>
                         <outlet property="tableView" destination="Dxe-Ye-WNQ" id="9m8-Cr-nkb"/>
+                        <outlet property="typingUsersLbl" destination="1xk-Ms-im4" id="3uk-Hc-LNE"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6UT-bA-jo2" userLabel="First Responder" sceneMemberID="firstResponder"/>
